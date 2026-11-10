@@ -1,0 +1,8 @@
+project: savantenvs/DAPLink
+target: fuzz_dap
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_dap/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_dap
+    libfuzzer: true

@@ -1,0 +1,7 @@
+mayhem/build
+/fuzz_intelhex
+/fuzz_intelhex-standalone
+/fuzz_dap
+/fuzz_dap-standalone
+ctrf-report.json
+crash-*
